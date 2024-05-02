@@ -6,4 +6,5 @@ from PIL import Image
 st.title("Página Inicial")
 
 imagen = Image.open("home.jpeg")
+st.image(imagen)
 
